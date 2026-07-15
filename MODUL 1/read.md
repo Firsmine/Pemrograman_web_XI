@@ -8,6 +8,14 @@
 
    Program sederhana menampilkan heading.
 
-2) Variasi HeadingFile: latihanheading2.html
+2) Variasi Heading
+
+   File: latihanheading2.html
 
    Program sederhana menampilkan heading dengan text align.
+
+3) Membuat Paragraf
+
+   File: latihanparagraf1.html
+
+   Program sederhana membuat paragraf
