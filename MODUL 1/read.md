@@ -25,3 +25,9 @@
    File: latihanparagraf2.html
 
    Program sederhana membuat paragraf dengan text align.
+
+5) Menambahkan Baris
+
+   File: latihanparagraf2.html
+
+   Program sederhana membuat paragraf dengan text align.
