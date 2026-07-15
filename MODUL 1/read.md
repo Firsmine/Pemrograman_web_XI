@@ -18,4 +18,10 @@
 
    File: latihanparagraf1.html
 
-   Program sederhana membuat paragraf
+   Program sederhana membuat paragraf.
+
+4) Variasi Paragraf
+
+   File: latihanparagraf2.html
+
+   Program sederhana membuat paragraf dengan text align.
