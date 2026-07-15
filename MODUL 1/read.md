@@ -1,4 +1,7 @@
-1. List Heading dengan tag <h>...</h>
+1. List Heading dengan tag
+   ```HTML
+   <h>...<h>
+   ```
 
 File: latihanheading.html
 
