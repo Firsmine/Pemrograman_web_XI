@@ -31,3 +31,9 @@
    File: latihanparagraf2.html
 
    Program sederhana membuat paragraf dengan text align.
+
+6) Fontase
+
+   File: latihanfont.html
+
+   Program sederhana font.
