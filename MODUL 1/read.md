@@ -49,3 +49,9 @@
    File: latihangaris.html
 
    Program sederhana garis.
+
+9) Membuat List (Ordered List)
+
+   File: latihanOrderedList.html
+
+   Program ordered list.
