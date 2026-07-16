@@ -43,3 +43,9 @@
    File: latihankarakter.html
 
    Program sederhana karakter.
+
+8) Garis
+
+   File: latihangaris.html
+
+   Program sederhana garis.
