@@ -61,3 +61,9 @@
     File: latihanUnorderedList.html
 
     Program unordered list.
+
+11) Membuat List (Definition List)
+
+    File: latihanDefinitionList.html
+
+    Program definition list.
