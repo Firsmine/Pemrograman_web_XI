@@ -37,3 +37,9 @@
    File: latihanfont.html
 
    Program sederhana font.
+
+7) Karakter Khusus
+
+   File: latihankarakter.html
+
+   Program sederhana karakter.
