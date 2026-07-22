@@ -4,31 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gambar, Audio, Video</title>
+    <link rel="stylesheet" href="/MODUL 2/Praktikum/style.css" />
   </head>
   <body>
-    <p>Ini adalah gambar</p>
-    <img
-      src="/MODUL 2/Asset/LOGOSMKTRI.png"
-      alt="Logo SMKTRI"
-      width="100"
-      height="100"
-    />
-
-    <br />
-
-    <p>Ini adalah video</p>
-    <video width="640" height="480" controls>
-      <source src="/MODUL 2/Latihan/VideoTwibbon.mp4" type="video/mp4" />
-    </video>
-
-    <br />
-
-    <p>Ini adalah audio</p>
-    <audio controls>
-      <source
-        src="/MODUL 2/Latihan/The man who can't be moved.mp3"
-        type="audio/mp3"
-      />
-    </audio>
+    <div class="container">
+      <div class="gambar">
+        <h1>Ini adalah gambar</h1>
+        <img
+          src="/MODUL 2/Asset/LOGOSMKTRI.png"
+          alt="Logo SMKTRI"
+          class="img"
+        />
+      </div>
+      <div class="video">
+        <h1>Ini adalah video</h1>
+        <video controls>
+          <source
+            src="/MODUL 2/Latihan/VideoTwibbon.mp4"
+            type="video/mp4"
+            class="vid"
+          />
+        </video>
+      </div>
+    </div>
+    <div class="audio">
+      <h1>Ini adalah audio</h1>
+      <audio controls>
+        <source
+          src="/MODUL 2/Latihan/The man who can't be moved.mp3"
+          type="audio/mp3"
+        />
+      </audio>
+    </div>
   </body>
 </html>
