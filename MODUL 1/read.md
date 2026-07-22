@@ -10,6 +10,14 @@
 
 2) Variasi Heading
 
+   ```HTML
+   <h1 align="center"></h1>
+   align = atribut
+   "center" = value
+   valign = "top" "middle" "bottom" untuk vertikal
+   align = "left" "center" "right" untuk horzontal
+   ```
+
    File: latihanheading2.html
 
    Program sederhana menampilkan heading dengan text align.
@@ -67,3 +75,7 @@
     File: latihanDefinitionList.html
 
     Program definition list.
+
+p enter 2 kali
+
+br enter 1 kali
