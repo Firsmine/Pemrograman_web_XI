@@ -1,29 +1,73 @@
 <html>
   <head>
-    <title>Praktikum 2</title>
+    <title>Praktikum 1</title>
   </head>
+  <style>
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+    table {
+      width: 100vw;
+      height: 100vh;
+    }
+    .header,
+    .footer {
+      background: darkblue;
+      color: white;
+      height: 50px;
+      padding: 10px;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .content {
+      height: auto;
+    }
+    .menu,
+    .medsos {
+      width: 20%;
+      padding: 5px;
+    }
+    .lirik {
+      width: 60%;
+      display: block;
+      height: 80vh;
+      overflow-y: scroll;
+    }
+    li {
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: darkblue;
+    }
+  </style>
   <body>
-    <table
-      border="1"
-      cellpadding="5"
-      cellspacing="2"
-      align="center"
-      width="1000"
-    >
-      <tr bgcolor="navy">
-        <th colspan="3"><h1>Website Lagu Nasional Indonesia</h1></th>
+    <table cellpadding="5" align="center">
+      <tr class="header">
+        <th colspan="3">Website Lagu Nasional Indonesia</th>
       </tr>
 
-      <tr valign="top">
-        <td width="200">
-          Menu <br />
+      <tr valign="top" class="content">
+        <td width="200" class="menu">
           <ul>
             <li><a href="#IndonesiaRaya">Indonesia Raya</a></li>
             <li><a href="#TanahAir">Tanah Air</a></li>
             <li><a href="#MengheningkanCipta">Mengheningkan Cipta</a></li>
           </ul>
         </td>
-        <td width="600">
+        <td width="600" class="lirik">
           <h4 id="IndonesiaRaya">Indonesia Raya</h4>
           <p>
             Indonesia tanah airku <br />
@@ -57,6 +101,7 @@
             Merdeka Merdeka <br />
             Hiduplah Indonesia Raya
           </p>
+          <br /><br />
 
           <h4 id="TanahAir">Tanah Air</h4>
           <p>
@@ -75,6 +120,7 @@
             Tanahku tak kulupakan <br />
             Engkau kubanggakan
           </p>
+          <br /><br />
 
           <h4 id="MengheningkanCipta">Mengheningkan Cipta</h4>
           <p>
@@ -89,26 +135,28 @@
             Bagi Indonesia Merdeka
           </p>
         </td>
-        <td width="200">
-          <h4>Kumpulan Link Online</h4>
+        <td width="200" class="medsos">
+          <h4>Sosial Media</h4>
           <ul>
+            <li>
+              <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a href="https://x.com" target="_blank">Twitter</a>
+            </li>
             <li>
               <a href="https://www.instagram.com" target="_blank">Intagram</a>
             </li>
             <li>
               <a href="https://www.youtube.com" target="_blank">Youtube</a>
             </li>
-            <li><a href="http://google.co.id" target="_blank">Google</a></li>
-            <li>
-              <a href="https://wordpress.com" target="_blank">Wordpress</a>
-            </li>
           </ul>
         </td>
       </tr>
 
       <tr>
-        <td colspan="3" align="center" height="70">
-          &copy; Copyright by Siti Shafira, 2026
+        <td colspan="3" align="center" height="70" class="footer">
+          &copy; 2025 Website Lagu Nasional Indonesia - Semua Hak Dilindungi
         </td>
       </tr>
     </table>
