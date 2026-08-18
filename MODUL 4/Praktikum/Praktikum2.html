@@ -1,23 +1,20 @@
 <html>
   <head>
-    <title>Praktikum 1</title>
+    <title>Praktikum 2</title>
   </head>
   <style>
     * {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Arial;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
-    html,
     body {
-      height: 100%;
-      width: 100%;
       overflow: hidden;
     }
     table {
-      width: 100vw;
-      height: 100vh;
+      width: 100%;
+      height: 100%;
     }
     .header,
     .footer {
@@ -31,22 +28,27 @@
       font-size: 20px;
       font-weight: 700;
     }
-    .content {
-      height: auto;
-    }
     .menu,
     .medsos {
       width: 20%;
       padding: 5px;
+      background: rgb(225, 225, 225);
+    }
+    .menu li {
+      font-weight: 600;
     }
     .lirik {
-      width: 60%;
-      display: block;
       height: 80vh;
+      display: block;
       overflow-y: scroll;
+    }
+    .lirik h3 {
+      color: darkblue;
+      margin: 10px 0 10px 0;
     }
     li {
       list-style: none;
+      margin: 5px;
     }
     a {
       text-decoration: none;
@@ -59,16 +61,16 @@
         <th colspan="3">Website Lagu Nasional Indonesia</th>
       </tr>
 
-      <tr valign="top" class="content">
-        <td width="200" class="menu">
+      <tr valign="top">
+        <td class="menu">
           <ul>
             <li><a href="#IndonesiaRaya">Indonesia Raya</a></li>
             <li><a href="#TanahAir">Tanah Air</a></li>
             <li><a href="#MengheningkanCipta">Mengheningkan Cipta</a></li>
           </ul>
         </td>
-        <td width="600" class="lirik">
-          <h4 id="IndonesiaRaya">Indonesia Raya</h4>
+        <td class="lirik">
+          <h3 id="IndonesiaRaya">Indonesia Raya</h3>
           <p>
             Indonesia tanah airku <br />
             Tanah tumpah darahku <br />
@@ -103,7 +105,7 @@
           </p>
           <br /><br />
 
-          <h4 id="TanahAir">Tanah Air</h4>
+          <h3 id="TanahAir">Tanah Air</h3>
           <p>
             Tanah airku tidak kulupakan <br />
             Kan terkenang selama hidupku <br />
@@ -122,7 +124,7 @@
           </p>
           <br /><br />
 
-          <h4 id="MengheningkanCipta">Mengheningkan Cipta</h4>
+          <h3 id="MengheningkanCipta">Mengheningkan Cipta</h3>
           <p>
             Dengan seluruh anngkasa raya memuji <br />
             Pahlawan negara <br />
@@ -135,7 +137,7 @@
             Bagi Indonesia Merdeka
           </p>
         </td>
-        <td width="200" class="medsos">
+        <td class="medsos">
           <h4>Sosial Media</h4>
           <ul>
             <li>
@@ -154,8 +156,8 @@
         </td>
       </tr>
 
-      <tr>
-        <td colspan="3" align="center" height="70" class="footer">
+      <tr class="footer">
+        <td colspan="3">
           &copy; 2025 Website Lagu Nasional Indonesia - Semua Hak Dilindungi
         </td>
       </tr>
