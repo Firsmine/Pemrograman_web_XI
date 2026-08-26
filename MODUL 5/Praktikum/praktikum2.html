@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <title>Praktikum 2</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      body {
+        background: #aed0ff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      h1 {
+        font-weight: 800;
+        color: #172e47;
+        text-shadow: 0 1px 1px #172e47;
+      }
+      legend {
+        font-weight: 800;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      .form {
+        background: white;
+        padding: 1rem;
+        margin: 3rem;
+        justify-content: center;
+        width: 60vw;
+        height: 80%;
+        border-radius: 1rem;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+      }
+      .submit {
+        color: white;
+        background: #426993;
+        border: none;
+        border-radius: 5px;
+        width: 5rem;
+        height: 1.5rem;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+        font-weight: 800;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .submit:hover {
+        background: #325479;
+        transition: all 0.3s;
+      }
+      .title {
+        font-weight: 700;
+      }
+      .footer {
+        width: 100vw;
+        background: #172e47;
+        color: white;
+        padding: 1rem;
+        position: sticky;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mendaftar Akun Baru</h1>
+      <div class="form">
+        <form action="">
+          <fieldset>
+            <legend>Bergabung dengan komunitas</legend>
+            <table>
+              <tr>
+                <td class="title">Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama" /></td>
+              </tr>
+              <tr>
+                <td class="title">Tempat dan Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                  <input type="text" name="tempatLahir" />,
+                  <input type="date" name="tanggalLahir" />
+                </td>
+              </tr>
+              <tr>
+                <td class="title">Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                  <input type="radio" name="jk" value="pria" />Pria <br />
+                  <input type="radio" name="jk" value="wanita" />Wanita <br />
+                  <input type="radio" name="jk" value="lainnya" />Lainnya <br />
+                </td>
+              </tr>
+              <tr>
+                <td class="title">Hobi</td>
+                <td>:</td>
+                <td>
+                  <input
+                    type="checkbox"
+                    name="hobi"
+                    value="membaca"
+                  />Membaca<br />
+                  <input
+                    type="checkbox"
+                    name="hobi"
+                    value="menulis"
+                  />Menulis<br />
+                  <input
+                    type="checkbox"
+                    name="hobi"
+                    value="memancing"
+                  />Memancing<br />
+                  <input
+                    type="checkbox"
+                    name="hobi"
+                    value="berkebun"
+                  />Berkebun<br />
+                </td>
+              </tr>
+              <tr>
+                <td class="title">Kelas dan Jurusan</td>
+                <td>:</td>
+                <td>
+                  <select name="kelasJurusan">
+                    <option value="rpl1">XI RPL 1</option>
+                    <option value="rpl2">XI RPL 2</option>
+                    <option value="akl1">XI AKL 1</option>
+                    <option value="akl2">XI AKL 2</option>
+                    <option value="htl1">XI HTL 1</option>
+                    <option value="htl2">XI HTL 2</option>
+                    <option value="dpb">XI DPB</option>
+                    <option value="tkkr">XI TKKR</option>
+                    <option value="ulw">XI ULW</option>
+                    <option value="tki">XI TKI</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+                <td>
+                  <input
+                    type="submit"
+                    name="kirim"
+                    value="kirim"
+                    class="submit"
+                  />
+                </td>
+              </tr>
+            </table>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h5 align="center">Copyright &copy; by Siti Shafira 2026</h5>
+    </div>
+  </body>
+</html>
