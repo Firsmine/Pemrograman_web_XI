@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jam</title>
+  </head>
+  <body>
+    <script>
+      let jam = Number(prompt("Masukkan jam (1-24): "));
+      if (jam >= 18) {
+        document.write("Jam " + jam + "<br> Selamat Malam");
+      } else if (jam >= 15) {
+        document.write("Jam " + jam + "<br> Selamat Sore");
+      } else if (jam >= 11) {
+        document.write("Jam " + jam + "<br> Selamat Siang");
+      } else if (jam >= 6) {
+        document.write("Jam " + jam + "<br> Selamat Pagi");
+      } else if (jam > 0) {
+        document.write("Jam " + jam + "<br> Selamat Tidur");
+      } else {
+        document.write("Jam tidak valid.");
+      }
+    </script>
+  </body>
+</html>
