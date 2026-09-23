@@ -8,15 +8,15 @@
   <body>
     <script>
       let jam = Number(prompt("Masukkan jam (1-24): "));
-      if (jam >= 18) {
-        document.write("Jam " + jam + "<br> Selamat Malam");
-      } else if (jam >= 15) {
-        document.write("Jam " + jam + "<br> Selamat Sore");
-      } else if (jam >= 11) {
-        document.write("Jam " + jam + "<br> Selamat Siang");
-      } else if (jam >= 6) {
+      if (jam >= 6 && jam <= 10) {
         document.write("Jam " + jam + "<br> Selamat Pagi");
-      } else if (jam > 0) {
+      } else if (jam >= 11 && jam <= 14) {
+        document.write("Jam " + jam + "<br> Selamat Siang");
+      } else if (jam >= 15 && jam <= 17) {
+        document.write("Jam " + jam + "<br> Selamat Sore");
+      } else if (jam >= 18 && jam <= 24) {
+        document.write("Jam " + jam + "<br> Selamat Malam");
+      } else if (jam >= 1 && jam <= 5) {
         document.write("Jam " + jam + "<br> Selamat Tidur");
       } else {
         document.write("Jam tidak valid.");
