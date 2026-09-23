@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input JavaScript</title>
+  </head>
+  <body>
+    <h2>Input Data Siswa</h2>
+    <script>
+      let nama = prompt("Masukkan nama: ");
+      let tugas = Number(prompt("Masukkan nilai tugas: "));
+      let uts = Number(prompt("Masukkan nilai UTS: "));
+      let uas = Number(prompt("Masukkan nilai UAS: "));
+      let rataRata = (tugas + uts + uas) / 3;
+
+      document.write("Nama : " + nama + "<br>");
+      document.write("Nilai Tugas : " + tugas + "<br>");
+      document.write("Nilai UTS : " + uts + "<br>");
+      document.write("Nilai UAS : " + uas + "<br>");
+      document.write("Rata-Rata : " + rataRata + "<br>");
+    </script>
+    <h5 align="center">Copyright &copy; 2026 - Fira</h5>
+  </body>
+</html>
